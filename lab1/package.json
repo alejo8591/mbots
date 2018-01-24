@@ -1,0 +1,19 @@
+{
+  "name": "lab1",
+  "version": "0.0.1",
+  "description": "initial bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bots",
+    "microsoft"
+  ],
+  "author": "Alejandro Romero",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.14.0",
+    "restify": "^6.3.4"
+  }
+}
