@@ -18,5 +18,5 @@ server.post('/api/messages', connector.listen());
 
 // Recebe as mensagens do usuário e responde repetindo cada mensagem (prefixado com 'Você disse:')
 var bot = new builder.UniversalBot(connector, function (session) {
-    session.send("Você disse: %s", session.message.text);
+    session.send("Usted dice: %s", session.message.text);
 });
