@@ -17,7 +17,7 @@ function uploadZip(callback) {
       sendImmediately: true
     },
     headers: {
-      "Content-Type": "applicaton/zip"
+      "Content-Type": "application/zip"
     }
   }))
   .on('response', function(resp){
